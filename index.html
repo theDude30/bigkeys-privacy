@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BigKeys Privacy Policy</title>
+<!--
+  Set large and high-contrast on purpose. A privacy policy for a low-vision
+  keyboard that needs pinching to read would be its own contradiction.
+-->
+<style>
+  :root {
+    --ink: #111418;
+    --paper: #ffffff;
+    --muted: #3d4450;
+    --rule: #d4d8de;
+    --accent: #7a5b00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #f2f4f7; --paper: #14171b; --muted: #c3c9d2;
+      --rule: #333a44; --accent: #ffe900;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 6vh 1.25rem 12vh;
+    background: var(--paper); color: var(--ink);
+    font: 400 clamp(1.15rem, 1rem + 0.6vw, 1.45rem)/1.65
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: clamp(2rem, 1.5rem + 2.2vw, 3rem); line-height: 1.15; margin: 0 0 .4em; letter-spacing: -0.02em; }
+  h2 { font-size: clamp(1.4rem, 1.2rem + 1vw, 1.9rem); line-height: 1.25; margin: 2.2em 0 .5em; letter-spacing: -0.01em; }
+  p, li { margin: 0 0 1em; }
+  ul { padding-left: 1.2em; }
+  strong { font-weight: 700; }
+  .lede { font-size: 1.15em; }
+  .updated { color: var(--muted); font-size: .9em; margin-bottom: 2.5em; }
+  .callout {
+    border-left: 6px solid var(--accent);
+    padding: 1em 0 .1em 1.1em; margin: 1.6em 0;
+  }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: .95em; background: color-mix(in srgb, var(--ink) 8%, transparent);
+    padding: .12em .35em; border-radius: .25em;
+  }
+  a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: .09em; }
+  footer { margin-top: 3.5em; padding-top: 1.5em; border-top: 2px solid var(--rule); color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>BigKeys Privacy Policy</h1>
+  <p class="updated">Last updated 18 August 2026</p>
+
+  <p class="lede"><strong>BigKeys collects nothing.</strong> No accounts, no analytics, no
+  advertising, no crash reporting, no third-party code of any kind. Nothing you type is
+  recorded, transmitted, or seen by anyone but you.</p>
+
+  <p>That is not a promise you have to take on trust. It is enforced by the way the app is
+  built, and you can check the most important part yourself in under a minute.</p>
+
+  <h2>BigKeys never asks for “Allow Full Access”</h2>
+
+  <p>iOS requires a keyboard to request a permission called <strong>Full Access</strong>
+  before it can send anything off your device. BigKeys never requests it, and cannot be made
+  to: the switch simply is not there.</p>
+
+  <div class="callout">
+    <p>Check for yourself: <strong>Settings → General → Keyboard → Keyboards → BigKeys</strong>.
+    Any keyboard that could send your typing somewhere would show an “Allow Full Access”
+    switch there. BigKeys does not.</p>
+  </div>
+
+  <p>Without Full Access, iOS blocks the keyboard from reaching the network at all. It is not
+  that BigKeys chooses not to send your keystrokes anywhere — it is that the operating system
+  will not let it.</p>
+
+  <h2>What stays on your iPhone</h2>
+
+  <p>Three things are stored, all of them on your device only:</p>
+
+  <ul>
+    <li><strong>Your settings</strong> — key size, layout, colours, letter style, and which
+    languages you use. Stored so the keyboard can read what you chose in the app.</li>
+
+    <li><strong>Word counts, if you leave word learning on.</strong> To suggest the words you
+    actually use, BigKeys counts how often you type each word. The counts live in the
+    keyboard’s own storage on your iPhone. Words containing numbers or symbols are never
+    kept, which excludes passwords, card numbers, addresses and codes. You can switch word
+    learning off in Settings at any time.</li>
+
+    <li><strong>Whether you have finished setup</strong>, so the app does not walk you through
+    it again.</li>
+  </ul>
+
+  <p>None of this is backed up to us, synced, or shared. There is nowhere for it to go.</p>
+
+  <h2>Deleting everything</h2>
+
+  <p>Delete the BigKeys app. iOS removes its storage with it, including every stored word
+  count and every setting. Nothing survives, because nothing was ever kept anywhere else.</p>
+
+  <h2>Passwords</h2>
+
+  <p>iOS never allows any third-party keyboard — BigKeys included — into a password field.
+  Apple’s own keyboard appears instead. This is enforced by the operating system and cannot
+  be changed by us or by any other keyboard app.</p>
+
+  <h2>Children</h2>
+
+  <p>BigKeys collects no data from anyone, of any age.</p>
+
+  <h2>Changes</h2>
+
+  <p>If this policy ever changes, the date at the top changes with it. Because the app
+  collects nothing, any change would be a change to the app itself, and would appear in its
+  release notes.</p>
+
+  <footer>
+    <p>Questions about this policy: <a href="mailto:tzahib@gmail.com">tzahib@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
